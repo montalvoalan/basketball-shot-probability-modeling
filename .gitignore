@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and generated artifacts
+data/raw/
+data/processed/
+models/
+outputs/
+reports/figures/
+*.csv
+*.csv.gz
+*.parquet
+*.pkl
+*.joblib
+*.cbm
+
+# Private planning and source assessment materials
+PROJECT_PLAN.md
+*Project Brief*
+ai_prompts.md
+submission.csv
+training.csv.gz
+testing.csv.gz
