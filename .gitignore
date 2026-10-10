@@ -23,11 +23,11 @@ env/
 Thumbs.db
 
 # Local data and generated artifacts
+data/README.md
 data/raw/
 data/processed/
 models/
 outputs/
-reports/figures/
 *.csv
 *.csv.gz
 *.parquet
